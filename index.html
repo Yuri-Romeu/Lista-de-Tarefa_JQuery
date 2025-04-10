@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+     <head>
+          <meta charset="UTF-8" />
+          <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+          <link rel="stylesheet" href="style.css" />
+          <title>Lista de Tarefa JQuery</title>
+     </head>
+     <body>
+          <div class="container">
+               <header>
+                    <h1>&#x1F4D2; Adicionar Tarefa</h1>
+               </header>
+               <form>
+                    <input type="text" placeholder="Tarefa" id="tarefaInput" required />
+                    <input type="submit" value="Adicionar" />
+                    <input type="reset" value="Resetar" onclick="resetar()" />
+               </form>
+               <div class="tarefas">
+                    <ul></ul>
+               </div>
+          </div>
+
+          <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+          <script src="script.js"></script>
+     </body>
+</html>
